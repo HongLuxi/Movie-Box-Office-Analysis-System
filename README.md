@@ -60,6 +60,8 @@
 
 ```Plain Text
 news_heat_analysis/
+|── config/                # 全局配置文件夹
+│   └── stopwords.txt      # 外置中文停用词文件
 ├── crawler/                # 多线程爬虫模块
 │   ├── sina_spider.py       # 新浪新闻爬虫
 │   ├── guanchazhe_spider.py # 观察者网爬虫
