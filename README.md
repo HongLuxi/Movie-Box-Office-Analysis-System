@@ -67,6 +67,7 @@ news_heat_analysis/
 │   ├── guanchazhe_spider.py # 观察者网爬虫
 │   └── spider_utils.py      # 爬虫工具函数
 ├── analysis/               # 文本分析模块
+│   ├── text_utils.py      # 文本通用工具（加载停用词、分词）
 │   ├── jieba_keyword.py     # 分词+TextRank关键词提取
 │   ├── tfidf_similarity.py  # TF-IDF相似度计算
 │   ├── word2vec_similarity.py # 词向量相似度计算
